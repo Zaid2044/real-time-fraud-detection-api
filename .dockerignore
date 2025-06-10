@@ -1,0 +1,20 @@
+# Ignore the virtual environment
+venv/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Git directory
+.git/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore data and notebooks, they are not needed in the final API image
+data/
+notebooks/
+
+# Ignore local system files
+.DS_Store
